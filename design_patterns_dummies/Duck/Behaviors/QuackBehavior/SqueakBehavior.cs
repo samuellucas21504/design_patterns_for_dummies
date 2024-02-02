@@ -2,8 +2,8 @@
 
 public class SqueakBehavior : IQuackBehavior
 {
-    public void Quack()
+    public void Quack(string name)
     {
-        Console.WriteLine("Squeak");
+        Console.WriteLine($"{name} squeaked");
     }
 }

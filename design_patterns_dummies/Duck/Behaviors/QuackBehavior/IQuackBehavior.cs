@@ -2,5 +2,5 @@
 
 public interface IQuackBehavior
 {
-    public void Quack();
+    public void Quack(string name);
 }

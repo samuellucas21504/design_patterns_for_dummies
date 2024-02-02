@@ -2,8 +2,8 @@
 
 public class QuackBehavior : IQuackBehavior
 {
-    public void Quack()
+    public void Quack(string name)
     {
-        Console.WriteLine("Quacked");
+        Console.WriteLine($"{name} quacked");
     }
 }
